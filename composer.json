@@ -1,0 +1,20 @@
+{
+	"name": "wph/ciscodailer",
+	"description": "Dail from a Cisco IP Phone in PHP",
+	"authors": [{
+		"name": "Tim Hogenbrik - WPHosted",
+		"email": "info@wphosted.nl",
+		"homepage": "https://www.wphosted.nl"
+	}],
+	"require": {
+		"php": ">=5.6"
+	},
+	"autoload": {
+		"classmap": [
+			"src"
+		]
+	},
+	"config": {
+		"secure-http": false
+	}
+}
